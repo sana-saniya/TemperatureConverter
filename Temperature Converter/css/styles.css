@@ -1,0 +1,116 @@
+ *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    justify-content: center;
+   align-items: center;
+    height: 100vh;
+    background-color:#B7A9D4;
+    background-image: url(https://i.pinimg.com/736x/08/b9/28/08b928a36df68c02eeda938df8d74f1a.jpg);
+    font-size: 5%;
+} 
+.temperature_convertor{
+   background: white;
+   padding: 20px 30px;
+   border-radius: 15px;
+   min-width:320px;
+   font-size:2rem;
+   box-shadow: -5px -5px 255px  0 rgba(255, 255, 255,0.02)inset;
+   width:auto; 
+   height: auto;  
+   display:flex;
+   flex-direction: column;
+   justify-content: center;  
+   backdrop-filter:blur(21px);
+   margin-top: -70px;
+}
+.mobile{
+    display:flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.title{
+    color:black;
+    font-size:2rem;
+  text-align: center;
+  margin-bottom: 4%;
+}
+.result{
+    text-align: center;
+    margin:20px,0;
+    border-bottom: 2px solid #ccc;
+}
+.result-heading{
+    color:black;
+    font-size:2rem;
+    font-weight:600;
+}
+.celsius-value{
+ border-bottom: 2px solid white;
+ padding:10px;
+ transition: all.45s ease;
+}
+.degree-type{
+   display:flex;
+ justify-content:space-between;
+   align-items: center;
+ flex-direction: row;
+  padding:2px 0;
+}
+.degree-field{
+ display:block;
+ align-items:flex-start;
+ flex-direction: column;
+ width:38%;
+ } 
+label{
+   color: #555 ;
+   font-size:2rem;
+   margin-bottom:5px;
+ 
+}
+input,select{
+    background: transparent;
+    border:none;
+    outline:none;
+    border-bottom: 2px solid #ccc;
+    padding:8px;
+    margin-bottom: 15px;
+}
+input:focus{
+    border:1px solid #730ab9;
+}
+option{
+    background: #3c39e7;
+    color: #f6f6f6;
+}
+#convert-btn{
+    border:none;
+    padding: 10px 20px;
+    width:100%;
+    border-radius: 1px;
+    outline:none;
+    background: linear-gradient(to bottow, #3633f3, #120fb9);
+    color:black;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top:10px;
+    background-color:#ebeaad;
+    transition:all .3s ease-in;
+    text-transform: uppercase;
+    cursor:pointer;
+} 
+#convert-btn:hover{
+    background: linear-gradient(to bottom,#e3e14a,#dad88e);
+}
+.fa{
+    margin-left: -12px;
+    margin-right:8px ;
+}
